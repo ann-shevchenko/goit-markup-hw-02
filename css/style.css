@@ -11,6 +11,7 @@ ul {
 
 a {
     text-decoration: none;
+    font-style: normal;
 }
 
 .logo  {
@@ -38,6 +39,9 @@ a {
 .header-menu-link:hover {
     color: #404BBF;
 }
+.header-menu-link:focus {
+    color: #404BBF;
+}
 
 .header-menu-link:active {
     color: #404BBF;
@@ -47,7 +51,7 @@ a {
 .header-contacts-link {
     color: #434455;
     font-size: 16px;
-    font-style: normal;
+    
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -91,8 +95,19 @@ a {
     background-color: #404BBF;
 }
 
+.quality-item >h3{
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 
-
+.quality-item>p{ 
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 .team {
     background-color: #F4F4FD;
 }
