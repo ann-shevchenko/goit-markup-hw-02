@@ -47,7 +47,9 @@ a {
     color: #404BBF;
     text-decoration: underline;
 }
-
+address{
+    font-style: normal;
+}
 .header-contacts-link {
     color: #434455;
     font-size: 16px;
@@ -95,7 +97,7 @@ a {
     background-color: #404BBF;
 }
 
-.quality-item >h3{
+.quality-item-title{
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -103,7 +105,7 @@ a {
     letter-spacing: 0.02em;
 }
 
-.quality-item>p{ 
+.quality-item-text{ 
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
