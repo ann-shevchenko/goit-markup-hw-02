@@ -11,7 +11,7 @@ ul {
 
 a {
     text-decoration: none;
-    font-style: normal;
+    
 }
 
 .logo  {
@@ -47,13 +47,12 @@ a {
     color: #404BBF;
     text-decoration: underline;
 }
-address{
+.header-contacts{
     font-style: normal;
 }
 .header-contacts-link {
     color: #434455;
     font-size: 16px;
-    
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
@@ -148,11 +147,19 @@ p {
 .footer{
     background-color: #2E2F42;
 }
-
-.footer>a {
+.footer-logo{
+    font-family: 'Raleway', sans-serif;
+    color: #4D5AE5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.footer-logo >span{
     color: #F4F4FD;
 }
 
-.footer>p{
+.footer-text{
     color: #F4F4FD;
 }
