@@ -2,7 +2,6 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFF;
-
 }
 
 ul {
@@ -11,9 +10,46 @@ ul {
 
 a {
     text-decoration: none;
-
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.blok-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.item-subtitle {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.item-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* ==========HEADER============ */
 .header-logo {
     font-family: 'Raleway', sans-serif;
     color: #4D5AE5;
@@ -36,10 +72,7 @@ a {
     letter-spacing: 0.02em;
 }
 
-.header-menu-link:hover {
-    color: #404BBF;
-}
-
+.header-menu-link:hover,
 .header-menu-link:focus {
     color: #404BBF;
 }
@@ -60,14 +93,14 @@ a {
     letter-spacing: 0.02em;
 }
 
-.header-contacts-link:hover {
+.header-contacts-link:hover,
+.header-contacts-link:focus {
     color: #404BBF;
 }
 
-.header-contacts-link:focus {
-    color: #404bbf;
-}
+/* ========================== */
 
+/* ============HERO=========== */
 .hero {
     background-color: #2E2F42;
 }
@@ -91,27 +124,14 @@ a {
     cursor: pointer;
 }
 
-.hero-btn:hover {
-    background-color: #404BBF;
-}
-
+.hero-btn:hover,
 .hero-btn:focus {
     background-color: #404BBF;
 }
 
-.item-title {
-    color: #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
+/* ========================== */
 
-.item-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
+/* ===========TEAM=========== */
 
 .team {
     background-color: #F4F4FD;
@@ -122,15 +142,9 @@ a {
     text-align: center;
 }
 
-.blok-title {
-    color: #2E2F42;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-}
+/* ========================== */
+
+/* ==========FOOTER=========== */
 
 .footer {
     background-color: #2E2F42;
@@ -156,3 +170,5 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+/* ========================== */
