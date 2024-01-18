@@ -11,10 +11,10 @@ ul {
 
 a {
     text-decoration: none;
-    
+
 }
 
-.logo  {
+.header-logo {
     font-family: 'Raleway', sans-serif;
     color: #4D5AE5;
     font-size: 18px;
@@ -24,7 +24,7 @@ a {
     text-transform: uppercase;
 }
 
-.logo>span  {
+.header-logo-inside {
     color: #2E2F42;
 }
 
@@ -39,6 +39,7 @@ a {
 .header-menu-link:hover {
     color: #404BBF;
 }
+
 .header-menu-link:focus {
     color: #404BBF;
 }
@@ -47,9 +48,11 @@ a {
     color: #404BBF;
     text-decoration: underline;
 }
-.header-contacts{
+
+.header-contacts {
     font-style: normal;
 }
+
 .header-contacts-link {
     color: #434455;
     font-size: 16px;
@@ -61,7 +64,7 @@ a {
     color: #404BBF;
 }
 
-.header-contacts-link:focus{
+.header-contacts-link:focus {
     color: #404bbf;
 }
 
@@ -92,11 +95,11 @@ a {
     background-color: #404BBF;
 }
 
-.hero-btn:focus{
+.hero-btn:focus {
     background-color: #404BBF;
 }
 
-.item-title{
+.item-title {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -104,16 +107,23 @@ a {
     letter-spacing: 0.02em;
 }
 
-.item-text{ 
+.item-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
 .team {
     background-color: #F4F4FD;
 }
 
+.team-item {
+    background-color: #FFF;
+    text-align: center;
+}
+
 .blok-title {
+    color: #2E2F42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -121,33 +131,12 @@ a {
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-/*
-h3 {
-    color: #2E2F42;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
 
-p {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-*/
-.team-item>h3 {
-    text-align: center;
-}
-
-.team-item>p {
-    text-align: center;
-}
-
-.footer{
+.footer {
     background-color: #2E2F42;
 }
-.footer-logo{
+
+.footer-logo {
     font-family: 'Raleway', sans-serif;
     color: #4D5AE5;
     font-size: 18px;
@@ -156,13 +145,14 @@ p {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.footer-logo >span{
+
+.footer-logo-inside {
     color: #F4F4FD;
 }
 
-.footer-text{
+.footer-text {
     color: #F4F4FD;
     font-size: 16px;
-    line-height: 1.5; /* 150% */
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
